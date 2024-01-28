@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.apresentar{
+    padding-bottom: 4vh;
+    font-size: 2vh;
+}
+
+.nome{
+    padding-bottom: 4vh;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    height: 5vh
+}
+
+.habilidades > img:hover{
+    height: 60px;
+    width: 60px;
+}
+
+.profile{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 10vw;
+}
